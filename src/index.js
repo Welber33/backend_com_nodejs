@@ -14,7 +14,7 @@ const app = express();
 app.get('/projects', (request, response) => {
     return response.json([
         'Projeto 1',
-        'Projeto2'
+        'Projeto 2'
     ]);
 });
 
